@@ -8,10 +8,11 @@ import type { GeneratorConfig } from "./tools/generator/config.js";
  * in `src/resources/users.ts` before replacing it.
  */
 const config: GeneratorConfig = {
-	spec: "./tests/generator/fixtures/users.yaml",
-
+	spec: "https://raw.githubusercontent.com/grMLEqomlkkU5Eeinz4brIrOVCUCkJuN/newYorkTimes-dung-beetle/refs/heads/master/nyt3.json",
 	// Names the path rules read wrongly, and two endpoints that would collide.
 	names: {},
 };
 
 export default config;
+
+// npx swagger2openapi  --outfile nyt3.json nyt.json

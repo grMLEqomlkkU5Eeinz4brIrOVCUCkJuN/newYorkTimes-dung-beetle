@@ -50,20 +50,20 @@ export type {
 // them are overwritten on the next run; everything above is yours.
 // dung-beetle:start generated exports
 export {
-	createUser,
-	deleteUser,
-	getUser,
-	listUserSessions,
-	listUsers,
-} from "./src/resources/users.js";
+	getNameSpecificConceptJson,
+} from "./src/resources/name.js";
 
 export type {
-	CreateUserQuery,
-	CreateUserResponse,
-	ListUserSessionsResponse,
-	ListUsersQuery,
-	ListUsersResponse,
-	NewUser,
-	User,
-} from "./src/resources/users.js";
+	GetNameSpecificConceptJsonQuery,
+	GetNameSpecificConceptJsonResponse,
+} from "./src/resources/name.js";
+
+export {
+	getSearchJson,
+} from "./src/resources/search-json.js";
+
+export type {
+	GetSearchJsonQuery,
+	GetSearchJsonResponse,
+} from "./src/resources/search-json.js";
 // dung-beetle:end

@@ -29,11 +29,8 @@ const publicSurface = [
 // review rather than something that lands unannounced.
 // dung-beetle:start generated public surface
 const generatedSurface = [
-	"createUser",
-	"deleteUser",
-	"getUser",
-	"listUserSessions",
-	"listUsers",
+	"getNameSpecificConceptJson",
+	"getSearchJson",
 ];
 // dung-beetle:end
 
